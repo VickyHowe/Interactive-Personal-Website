@@ -1,0 +1,337 @@
+/* Global Styles */
+h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: antiquewhite;
+  font-size: 400%;
+}
+p {
+  font-size: 20px;
+  text-align: left;
+  padding: 40px 15px 10px;
+}
+
+#skills {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: linear-gradient(
+      41deg,
+      rgba(107, 107, 107, 0.04) 0%,
+      rgba(107, 107, 107, 0.04) 8%,
+      rgba(31, 31, 31, 0.04) 8%,
+      rgba(31, 31, 31, 0.04) 100%
+    ),
+    linear-gradient(
+      9deg,
+      rgba(228, 228, 228, 0.04) 0%,
+      rgba(228, 228, 228, 0.04) 62%,
+      rgba(54, 54, 54, 0.04) 62%,
+      rgba(54, 54, 54, 0.04) 100%
+    ),
+    linear-gradient(
+      124deg,
+      rgba(18, 18, 18, 0.04) 0%,
+      rgba(18, 18, 18, 0.04) 37%,
+      rgba(233, 233, 233, 0.04) 37%,
+      rgba(233, 233, 233, 0.04) 100%
+    ),
+    linear-gradient(
+      253deg,
+      rgba(201, 201, 201, 0.04) 0%,
+      rgba(201, 201, 201, 0.04) 55%,
+      rgba(47, 47, 47, 0.04) 55%,
+      rgba(47, 47, 47, 0.04) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(172, 172, 172, 0.04) 0%,
+      rgba(172, 172, 172, 0.04) 33%,
+      rgba(26, 26, 26, 0.04) 33%,
+      rgba(26, 26, 26, 0.04) 100%
+    ),
+    linear-gradient(
+      64deg,
+      rgba(11, 11, 11, 0.04) 0%,
+      rgba(11, 11, 11, 0.04) 38%,
+      rgba(87, 87, 87, 0.04) 38%,
+      rgba(87, 87, 87, 0.04) 100%
+    ),
+    linear-gradient(
+      347deg,
+      rgba(199, 199, 199, 0.04) 0%,
+      rgba(199, 199, 199, 0.04) 69%,
+      rgba(4, 4, 4, 0.04) 69%,
+      rgba(4, 4, 4, 0.04) 100%
+    ),
+    linear-gradient(
+      313deg,
+      rgba(36, 36, 36, 0.04) 0%,
+      rgba(36, 36, 36, 0.04) 20%,
+      rgba(91, 91, 91, 0.04) 20%,
+      rgba(91, 91, 91, 0.04) 100%
+    ),
+    linear-gradient(90deg, rgb(10, 17, 72), rgb(35, 148, 228));
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blanchedalmond;
+}
+.text {
+  font-size: 14px;
+  text-align: left;
+  padding: 20px 15px 10px;
+}
+
+footer p {
+  text-align: center;
+  opacity: 0.8;
+  color: blanchedalmond;
+}
+
+/* Media Query for Small Devices */
+@media (max-width: 1000px) {
+  .navbar-toggler-icon {
+    background-color: blanchedalmond;
+  }
+}
+
+/* Social Media */
+.media {
+  text-align: center;
+}
+.education-col {
+  min-width: 40%;
+  padding-top: 1%;
+  padding-bottom: 10%;
+}
+
+.experience-col {
+  min-width: 30%;
+  padding-top: 1%;
+}
+.fa {
+  text-align: center;
+  margin: 5px 10px;
+  font-size: 20px;
+  width: 30px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: 36px;
+}
+.fa-github {
+  background: none;
+  color: white;
+  font-size: 36px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-envelope {
+  background: none;
+  color: white;
+  font-size: 36px;
+}
+
+/* Navbar Styles */
+.navbar {
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: blanchedalmond;
+}
+
+.navbar .nav-item .active .nav-link {
+  color: blanchedalmond;
+}
+
+#portfolioTitle {
+  text-align: center;
+  padding-bottom: 5%;
+}
+/* Home Page Styles */
+
+#cover {
+  border-radius: 20px;
+  background-color: rgb(8, 12, 12);
+  opacity: 0.8;
+  padding: 5% 10% 30% 10%;
+}
+
+.card {
+  padding: 20% 0 8% 0;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: scale(1.4);
+}
+.card-body {
+  text-align: center;
+  padding-bottom: 5%;
+  line-height: 2.5;
+}
+.progress {
+  margin: 10px 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 5px 0 30px 0;
+}
+
+.dropdown img {
+  max-width: 100%;
+  height: 200px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  padding-top: 10%;
+  background-color: rgb(114, 127, 138);
+  min-width: 200px;
+  box-shadow: 8px 16px 10px rgb(139, 141, 161);
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+  transition-delay: 0.2s;
+}
+
+.profile-image {
+  width: 40%;
+  margin: 0 auto 20px;
+  padding: 5% 0;
+}
+
+/* About Page Styles */
+#about {
+  border-radius: 50px;
+  background-color: rgb(8, 12, 12);
+  opacity: 0.8;
+  padding: 10% 10% 30% 10%;
+}
+.about-image {
+  padding: 50% 10% 0 10%;
+}
+
+/* Portfolio section styles */
+.portfolio {
+  border-radius: 50px;
+  background-color: rgb(8, 12, 12);
+  opacity: 0.8;
+  padding: 10% 10% 10% 10%;
+}
+.portfolio .port-row {
+  width: 100%;
+}
+
+.portfolio .port-row img {
+  width: 500px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio .port-row:hover img {
+  transform: translateY(-20px) rotate(-15deg);
+}
+
+/* Contact Page Styles */
+.contactme {
+  border-radius: 50px;
+  background-color:rgb(8, 12, 12);
+  opacity: 0.8;
+  padding: 10% 10% 30% 10%;
+}
+.contactme p {
+  text-align: center;
+}
+.contactme-image {
+  margin: 2% 35%;
+  border-radius: 50px;
+  width: 35%;
+}
+.contact-form {
+  width: 60%;
+  margin: 0 auto 20px;
+}
+.contact-form label {
+  flex: 1;
+  margin-right: 10px;
+  text-align: right;
+}
+::placeholder {
+  color: black;
+}
+.contact-form input,
+.contact-form textarea {
+  flex: 2;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.contact-form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+.contact-form button:hover {
+  background-color: blanchedalmond;
+  color: #333;
+}
+#error_message {
+  background: #f3a6a6;
+  padding: 1%;
+  margin-bottom: 2%;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+/* Resume Page Styles */
+#resume {
+  border-radius: 50px;
+  background-color: rgb(8, 12, 12);
+  opacity: 0.8;
+  padding: 20px;
+}
+
+/* Modal Styles */
+.modal-content {
+  background-color: #0a1148;
+  color: blanchedalmond;
+}
+.close {
+  color: blanchedalmond;
+}
