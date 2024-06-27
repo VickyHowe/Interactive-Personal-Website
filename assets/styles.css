@@ -9,7 +9,7 @@ h1 {
 h2 {
   padding-top: 100px;
   padding-bottom: 100 px;
-  color:  rgb(35, 148, 228);
+  color: rgb(35, 148, 228);
 }
 p {
   font-size: 20px;
@@ -273,14 +273,14 @@ footer p {
 /* Contact Page Styles */
 .contactme {
   border-radius: 50px;
-  background-color:rgb(8, 12, 12);
+  background-color: rgb(8, 12, 12);
   opacity: 0.8;
   padding: 10% 10% 50% 10%;
 }
 .contactme p {
   text-align: center;
 }
-#phoneImage{
+#phoneImage {
   padding-left: 10px;
   padding-top: 10px;
 }
@@ -339,8 +339,33 @@ footer p {
   opacity: 0.9;
   padding: 20px;
 }
+
 #summary {
   padding-bottom: 50px;
+}
+#dancer{
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 150px;
+}
+.dancing-image {
+  animation: dance 3s infinite; /* add animation to make it dance */
+}
+
+@keyframes dance {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 /* Modal Styles */
 .modal-content {
